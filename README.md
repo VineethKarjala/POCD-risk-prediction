@@ -1,4 +1,3 @@
-"# POCD-risk-prediction" 
 # POCD Prediction Using Machine Learning & Streamlit
 
 This project builds a complete machine learning pipeline to predict **Post-Operative Cognitive Dysfunction (POCD)** using structured EHR data.  
