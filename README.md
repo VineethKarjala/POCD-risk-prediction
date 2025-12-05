@@ -21,7 +21,7 @@ The workflow includes:
 - Dropping extremely high-cardinality identifiers  
 - One-hot encoding categorical features  
 - Standardizing numerical variables  
-- Splitting into train / validation / test sets  
+- Splitting into train / validation / test sets  (70, 15, 15)%
 
 ### **2. Models Trained**
 | Model | Notes |
