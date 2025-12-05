@@ -10,7 +10,7 @@ A **Streamlit web app** is included to allow:
 
 ---
 
-## 🔍 Project Overview
+## Project Overview
 
 The goal of this project was to train supervised learning models on clinical variables and predict the risk of POCD after surgery.  
 The workflow includes:
@@ -37,7 +37,7 @@ The **MLPClassifier** delivered the strongest PR-AUC and was selected as the fin
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 Because the dataset is imbalanced, the primary metric used is:
 
@@ -49,7 +49,7 @@ This provides a more meaningful evaluation than ROC-AUC in low-incidence medical
 
 ---
 
-## 🧠 Final Model
+## Final Model
 
 The trained final model is: mlp_pocd_pipeline.pkl
 This includes:
@@ -74,11 +74,3 @@ The repository includes a `app.py` file that provides a simple UI for making pre
 ✔ Automatic preprocessing and feature alignment  
 ✔ POCD risk score output  
 ✔ Download predictions as CSV  
-
-### Run the app locally:
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-
-The app will start at: http://localhost:8501
