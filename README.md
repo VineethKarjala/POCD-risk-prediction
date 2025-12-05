@@ -69,8 +69,5 @@ These two files are required for inference.
 The repository includes a `app.py` file that provides a simple UI for making predictions.
 
 ### Features:
-✔ Upload a CSV file with patient records  
-✔ OR manually enter patient details  
-✔ Automatic preprocessing and feature alignment  
-✔ POCD risk score output  
-✔ Download predictions as CSV  
+- Upload a CSV file with patient records     
+- POCD risk score output    
