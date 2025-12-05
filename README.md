@@ -30,7 +30,7 @@ The workflow includes:
 | L1 & L2 Regularization Paths | To study coefficient behavior |
 | Random Forest | Tuned via GridSearchCV |
 | MLP Classifier | Best-performing model |
-| Gaussian Naive Bayes | Fast generative baseline |
+| Gaussian Naive Bayes | Generative baseline |
 
 
 The **MLPClassifier** delivered the strongest PR-AUC and was selected as the final model.
